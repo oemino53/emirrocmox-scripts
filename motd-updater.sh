@@ -4,3 +4,4 @@ rm /etc/profile.d/00_lxc-details.sh
 read -e -p "Enter APPLICATION name: " APPLICATION
 source <(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/misc/install.func)
 motd_ssh
+reboot
